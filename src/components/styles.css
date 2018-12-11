@@ -1,0 +1,74 @@
+.th{
+text-align: center
+}
+.img{
+width:50px
+}
+.clickable:hover{
+background: rgba(94, 58, 255, 0.1);
+cursor: pointer
+}
+.itemGroup{
+    height: 38px
+}
+Button.itemGroup {
+    height: 38px;
+    color: gray
+}
+Button.itemGroup:hover {
+    border: 2px solid rgb(80, 126, 255);
+    background: white
+}
+.bg{
+    background: linear-gradient(135deg, rgba(101, 135, 255, 0.6) 0%,rgba(137, 145, 255, 0.5) 46%,rgb(213,7,255,0.4) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89a3ff', endColorstr='#d507ff',GradientType=1 );
+     animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    height: 100%;
+}
+.animated{
+     animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+.antable tr{
+     animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+ @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} 
+.nav{
+
+}
+.wellTitle{
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 4px;
+    background: rgba(94, 58, 255, 0.1);
+    border: none
+
+}
+.revWell{
+    height: 125px;
+    margin-top: 30px;
+    padding: 10px;
+    background: rgba(193, 58, 255, 0.1);
+    border: none
+}
+.pTF{
+
+}
+.pText{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
